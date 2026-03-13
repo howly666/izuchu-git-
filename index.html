@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Калькулятор трапеции</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="task">
+
+  <div class="top">
+    <p>
+      <label><input type="radio" name="mode" value="1" checked> основание, боковые стороны и высоту к основанию</label>
+      <label><input type="radio" name="mode" value="2"> основание, высоту к основанию и прилежащие к основанию углы</label>
+      <input type="button" value="Показать" id="btnShow">
+    </p>
+  </div>
+
+  <div class="main">
+    <img id="figure" src="xyi.png" alt="трапеция">
+
+    <div class="input">
+      <div id="fields">
+
+      </div>
+
+      <p>
+        <b>Найти:</b><br>
+        <label><input type="checkbox" id="chkPerimeter"> периметр</label><br>
+        <label><input type="checkbox" id="chkSides"> неизвестные стороны</label><br>
+        <label><input type="checkbox" id="chkDiagAngle"> угол между диагоналями</label><br>
+        <label><input type="checkbox" id="chkDiagonals"> диагонали</label>
+      </p>
+
+      <p>
+        <input type="button" value="Вычислить" id="btnCalc">
+        <input type="button" value="Очистить" id="btnClear">
+      </p>
+    </div>
+  </div>
+
+  <div id="output"></div>
+
+</div>
+
+<script src="program.js"></script>
+</body>
+</html>
