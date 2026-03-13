@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.task {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px;
+    background: #fff;
+}
+
+.top {
+    margin-bottom: 8px;
+}
+
+.top label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#figure {
+    width: 220px;
+}
+
+.input p {
+    margin: 8px 0;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.input input[type=number] {
+    width: 120px;
+    padding: 2px 4px;
+    border: 1px solid #999;
+}
+
+.input input[type=button] {
+    padding: 3px 12px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 10px;
+    background: #f0f0f0;
+    padding: 10px 20px;
+    min-height: 30px;
+    text-align: center;
+}
+
+#output p {
+    margin: 6px 0;
+}
+
+.error {
+    border: 1px solid red !important;
+}
+
+.find-error {
+    color: red;
+}
